@@ -23,10 +23,10 @@ const Footer = () => {
                 </div>
                 <div class="flex justify-center md:justify-end space-x-6">
                 
-                  <a href='https://www.linkedin.com/in/sudais-khan-a660912a2/'>
+                  <a href='https://www.linkedin.com/in/sudais-khan-a660912a2/' target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className='text-4xl text-white hover:text-[#FECD1A]' />
                 </a>
-                <a href='https://github.com/isudaiskhan' className='pl-4'>
+                <a href='https://github.com/isudaiskhan' className='pl-4' target="_blank" rel="noopener noreferrer">
                   <FaGithub className='text-4xl text-white hover:text-[#FECD1A]' />
                 </a>
               

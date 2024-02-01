@@ -42,12 +42,12 @@ const Contact = () => {
       <div className='w-full pb-36 mt-20 bg-white' id='contact'>
           <h1 className='text-center md:text-4xl text-3xl text-[#12141D] font-semibold '>Contact Me</h1>
           <h1 className='text-center md:text-4xl text-3xl mt-5 font-semibold text-[#12141D]'>Get In Touch With Me</h1>
-            <p className='text-center md:w-7/12 mx-auto text-gray-500 py-8'>Thank you for taking the time to visit my website. If you have any questions about my services, or if you would like to schedule a consultation with me, please don't hesitate to reach out to us. I'm here to help and always happy to connect with potential clients.</p>
+            <p className='text-center md:w-3/5 mx-auto text-gray-500 py-8'>Thank you for taking the time to visit my website. If you have any questions about my services, or if you would like to schedule a consultation with me, please don't hesitate to reach out to us. I'm here to help and always happy to connect with potential clients.</p>
         <div className='max-w-[1140px] mx-auto flex flex-col sm:flex-col md:flex-row'>
 
 
 
-        {/* Company Name Section */}
+        {/* contact Section */}
         <div className='md:w-1/3 w-11/12 mx-auto my-3 mt-10 '>
         <div className='flex items-center'>
         <a href='#' className='px-3 rounded-full py-3 group'>

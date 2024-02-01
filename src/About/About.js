@@ -24,7 +24,7 @@ const About = () => {
     <div className='flex flex-col justify-center md:ms-10'>
       <h1 className='md:text-4xl text-3xl tracking-wide text-[#12141D] font-bold py-4'>About Me</h1>
       <p className='text-[#474747] text-justify'>
-      Hi there! I'm Sudais Khan, a passionate frontend React developer with a love for creating engaging and responsive web applications.I specialize in crafting modern, user-friendly interfaces using the latest technologies and best practices in web development. My goal is to bring ideas to life through clean and efficient code. With a strong foundation in React, TailwindCss JavaScript, Bootstrap HTML, and CSS, I enjoy turning complex problems into simple and intuitive solutions. I'm constantly learning and exploring new technologies to stay up-to-date with the ever-evolving world of frontend development.
+      Hi There! I'm Sudais Khan, a passionate frontend React developer with a love for creating engaging and responsive web applications.I specialize in crafting modern, user-friendly interfaces using the latest technologies and best practices in web development. My goal is to bring ideas to life through clean and efficient code. With a strong foundation in React, TailwindCss JavaScript, Bootstrap HTML, and CSS, I enjoy turning complex problems into simple and intuitive solutions. I'm constantly learning and exploring new technologies to stay up-to-date with the ever-evolving world of frontend development.
       Let's work together to create beautiful and functional web experiences. Feel free to explore my portfolio to see some of my recent projects, or get in touch to discuss how we can collaborate on your next venture.
       </p>
 

@@ -38,7 +38,7 @@ style={{ backgroundImage: `url(${bgimage})`}} >
    
     {/* Image Div */}
     <div>
-    <img src={image} className='w-[400px] rounded-full  md:ms-auto my-4 md:ml-auto' />
+    <img src={image} className='sm:w-[400px] w-80 rounded-full  md:ms-auto my-4 md:ml-auto' />
     </div>
   </div>
 </div>
