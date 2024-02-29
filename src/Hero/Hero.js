@@ -20,7 +20,7 @@ const Hero = () => {
     <>
 
 
-<div className={'bg-no-repeat bg-cover bg-fixed bg-center bg-blend-multiply bg-[#000000b4]'} 
+<div className={'bg-no-repeat bg-cover h-screen bg-fixed bg-center bg-blend-multiply bg-[#000000b4]'} 
 style={{ backgroundImage: `url(${bgimage})`}} >
 
 <div className='relative w-full pt-36 py-16 px-4' id='home'>

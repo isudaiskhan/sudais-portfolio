@@ -4,19 +4,27 @@ import image1 from '../assets/portfolio1.png';
 import image2 from '../assets/portfolio2.png';
 import image3 from '../assets/portfolio3.png';
 import image4 from '../assets/portfolio4.png';
-import image5 from '../assets/image1.png';
-import image6 from '../assets/image2.png';
-import image7 from '../assets/image3.png';
-import image8 from '../assets/image4.png';
+import image5 from '../assets/Portfolio5.png';
+import image6 from '../assets/Portfolio6.png';
+import image7 from '../assets/image1.png';
+import image8 from '../assets/image2.png';
+import image9 from '../assets/image3.png';
+import image10 from '../assets/image4.png';
+import image11 from '../assets/image5.png';
+import image12 from '../assets/image6.png';
+
 
 
 
 const Portfolio = () => {
   const portfolioItems = [
-    { thumbnailUrl: image1, largeImageUrl: image5 },
-    { thumbnailUrl: image2, largeImageUrl: image6 },
-    { thumbnailUrl: image3, largeImageUrl: image7 },
-    { thumbnailUrl: image4, largeImageUrl: image8 },
+    { thumbnailUrl: image1, largeImageUrl: image7 },
+    { thumbnailUrl: image2, largeImageUrl: image8 },
+    { thumbnailUrl: image3, largeImageUrl: image9 },
+    { thumbnailUrl: image4, largeImageUrl: image10 },
+    { thumbnailUrl: image5, largeImageUrl: image11 },
+    { thumbnailUrl: image6, largeImageUrl: image12 },
+
   ];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
