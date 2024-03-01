@@ -18,13 +18,12 @@ import image12 from '../assets/image6.png';
 
 const Portfolio = () => {
   const portfolioItems = [
-    { thumbnailUrl: image1, largeImageUrl: image7 },
     { thumbnailUrl: image2, largeImageUrl: image8 },
     { thumbnailUrl: image3, largeImageUrl: image9 },
     { thumbnailUrl: image4, largeImageUrl: image10 },
     { thumbnailUrl: image5, largeImageUrl: image11 },
     { thumbnailUrl: image6, largeImageUrl: image12 },
-
+    { thumbnailUrl: image1, largeImageUrl: image7 },
   ];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
