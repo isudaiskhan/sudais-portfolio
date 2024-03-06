@@ -1,7 +1,6 @@
 import React from 'react'
 import image from '../assets/myimage.jpg'
-import bgimage from '../assets/hero1.webp'
-
+import bgvideo from '../assets/Hero.mp4'
 
 
 
@@ -20,10 +19,20 @@ const Hero = () => {
     <>
 
 
-<div className={'bg-no-repeat bg-cover bg-fixed bg-center bg-blend-multiply bg-[#000000b4]'} 
-style={{ backgroundImage: `url(${bgimage})`}} >
+<div className="relative w-full overflow-hidden flex flex-col items-center justify-end">
+  <video
+    autoPlay
+    muted
+    loop
+    className="w-full h-full object-cover absolute inset-0"
+  >
+    <source src={bgvideo} type="video/mp4" />
 
-<div className='relative w-full pt-36 py-16 px-4' id='home'>
+  </video>
+
+
+
+<div className='relative w-full bg-blend-multiply bg-[#0000007a] pt-40 py-16 px-4' id='home'>
   <div className='max-w-[1140px] mx-auto flex flex-col md:flex-row'>
     {/* First Div */}
     <div className='md:w-2/3 md:mt-8'>

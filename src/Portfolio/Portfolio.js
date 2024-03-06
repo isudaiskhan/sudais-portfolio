@@ -18,12 +18,12 @@ import image12 from '../assets/image6.png';
 
 const Portfolio = () => {
   const portfolioItems = [
+    { thumbnailUrl: image1, largeImageUrl: image7 },
     { thumbnailUrl: image2, largeImageUrl: image8 },
     { thumbnailUrl: image3, largeImageUrl: image9 },
     { thumbnailUrl: image4, largeImageUrl: image10 },
     { thumbnailUrl: image5, largeImageUrl: image11 },
     { thumbnailUrl: image6, largeImageUrl: image12 },
-    { thumbnailUrl: image1, largeImageUrl: image7 },
   ];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -68,8 +68,8 @@ const Portfolio = () => {
       {isModalOpen && (
         <div className="fixed inset-0 z-50 overflow-auto bg-black bg-opacity-80 flex items-center justify-center">
           <div className="relative max-w-3xl mx-auto bg-white rounded-lg overflow-y-auto">
-            <button className="absolute top-10 sm:right-14 right-6  text-gray-700" onClick={closeModal}>
-            <div className='rounded-full sm:text-3xl text-2xl py-2 px-2 bg-gray-200 border'>
+            <button className="absolute right-0 text-black" onClick={closeModal}>
+            <div className='rounded-full sm:text-3xl text-2xl'>
               <FaTimes />
               </div>
             </button>
@@ -82,6 +82,7 @@ const Portfolio = () => {
           </div>
         </div>
       )}
+
     </>
   );
 };

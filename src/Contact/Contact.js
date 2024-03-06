@@ -40,16 +40,18 @@ const Contact = () => {
 
 
       <div className='w-full pb-36 mt-20 bg-white' id='contact'>
-          <h1 className='text-center md:text-4xl text-3xl text-[#12141D] font-semibold '>Contact Me</h1>
-          <h1 className='text-center md:text-4xl text-3xl mt-5 font-semibold text-[#12141D]'>Get In Touch With Me</h1>
-            <p className='text-center md:w-3/5 mx-auto text-gray-500 py-8'>Thank you for taking the time to visit my website. If you have any questions about my services, or if you would like to schedule a consultation with me, please don't hesitate to reach out to us. I'm here to help and always happy to connect with potential clients.</p>
         <div className='max-w-[1140px] mx-auto flex flex-col sm:flex-col md:flex-row'>
 
 
 
         {/* contact Section */}
         <div className='md:w-1/3 w-11/12 mx-auto my-3 mt-10 '>
-        <div className='flex items-center'>
+        <div className='px-3'>
+        <h1 className='md:text-4xl text-3xl font-semibold text-[#12141D]'>Contact info</h1>
+        <p className='text-gray-500  mt-5'>For inquiries, feedback, or support, feel free to reach out to us. We're here to assist you!"</p>
+        </div>
+
+        <div className='flex items-center mt-12'>
         <a href='#' className='px-3 rounded-full py-3 group'>
           <FiPhoneCall className='text-4xl text-[#12141D] group-hover:text-[#FECD1A]' />
         </a>
@@ -63,7 +65,7 @@ const Contact = () => {
 
 
 
-      <div className='flex items-center mt-7'>
+      <div className='flex items-center mt-9'>
         <a href='#' className='px-3 rounded-full py-3 group'>
           <FaRegEnvelope  className='text-4xl text-[#12141D] group-hover:text-[#FECD1A]' />
         </a>
@@ -77,7 +79,7 @@ const Contact = () => {
 
 
 
-      <div className='flex items-center mt-7'>
+      <div className='flex items-center mt-9'>
         <a href='#' className='px-3 rounded-full py-3 group'>
           <FaLocationDot  className='text-4xl text-[#12141D] group-hover:text-[#FECD1A]' />
         </a>
@@ -92,7 +94,11 @@ const Contact = () => {
 
 
    {/* Form Section */}
-    <form ref={form} onSubmit={sendEmail} className='md:w-3/5 w-11/12 max-w-3xl mx-auto pt-10 space-y-5 mb-4 md:mb-0'>
+    <form ref={form} onSubmit={sendEmail} className='md:w-3/5 w-11/12 max-w-3xl md:mt-0 mt-5 mx-auto pt-10 space-y-5 mb-4 md:mb-0'>
+    <div>
+    <h1 className='md:text-4xl text-3xl font-semibold text-[#12141D]'>Get in Touch</h1>
+    <p className='text-gray-500 py-5'>Thank you for taking the time to visit my website. If you have any questions about my services, or if you would like to schedule a consultation with me, please don't hesitate to reach out to us. I'm here to help and always happy to connect with potential clients.</p>
+    </div>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
         <div className='md:w-1/2 relative'>
           <input type="text" id="input1" name="user_name" placeholder='Name' required className="w-full border rounded border-gray-500 px-4 py-3 text-black focus:outline-[#FECD1A]" />
@@ -129,6 +135,3 @@ const Contact = () => {
 }
 
 export default Contact
-
-
-
