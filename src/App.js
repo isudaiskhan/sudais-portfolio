@@ -5,9 +5,10 @@ import Footer from "./Footer/Footer";
 import Hero from "./Hero/Hero";
 import Navbar from "./Navbar/Navbar";
 import Portfolio from "./Portfolio/Portfolio";
-import ScrollButton from "./ScrollButton/ScrollButton";
 import Skills from "./Skills/Skills";
 import Testimonial from "./Testimonial/Testimonial";
+import WhatsApp from "./WhatsApp/WhatsApp";
+
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
      <Testimonial />
      <Contact />
      <Footer />
-     <ScrollButton />
+     <WhatsApp />
     
    </>
   );

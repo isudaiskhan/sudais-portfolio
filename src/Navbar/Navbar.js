@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineClose } from "react-icons/ai";
 import { IoMdMenu } from "react-icons/io";
-import logo from '../assets/logo.png';
+import logo from '../assets/sudais-logo.png';
+import {motion} from 'framer-motion';
+
 
 
 const Navbar = () => {
@@ -31,14 +33,45 @@ const Navbar = () => {
     }
   };
 
+
+  const [windowSize, setWindowSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener('resize', handleResize);
+  }, []); // Empty dependency array ensures that effect runs only once after mount
+
+  const initialXRight = windowSize.width >= 640 ? 200 : 100; // Initial X position for right animation
+
+ 
+
+  const initialRed = {
+    x: initialXRight, // Set initial position for red element
+    opacity: 0
+  };
+
+  
+
   return (
     <>
       <div className="relative">
         <div className="w-full z-50 top-0 absolute sm:ps-16 ps-6 sm:pe-16 pe-6">
-          <div className="container py-5 mx-auto flex items-center justify-between lg:justify-between">
+          <div className="container mx-auto flex items-center justify-between lg:justify-between">
             <div>
               <a href="#">
-                <img src={logo} href='#' className='w-28 h-20' />
+                <img src={logo} href='#' className='w-32 h-[120px]' />
               </a>
             </div>
             <div className="hidden lg:block">
@@ -46,7 +79,7 @@ const Navbar = () => {
         {navItems.map((item) => (
           <li
             key={item.id}
-            className={`p-6 border-transparent relative group cursor-pointer ${
+            className={`p-6 hover:tracking-widest duration-500 border-transparent relative group cursor-pointer ${
               item.id === 'home' ? 'transform scale-x-100' : ''
             }`}
           >
@@ -82,19 +115,29 @@ const Navbar = () => {
       </div>
 
       {mobileMenu && (
-        <div className="lg:hidden fixed inset-0 z-50 min-h-screen bg-black bg-opacity-70">
-          <div className="absolute right-0 min-h-screen w-3/5 py-4 px-8 shadow md:w-1/3 bg-black z-50">
+        <div className="lg:hidden fixed inset-0 z-50 min-h-screen overflow-hidden bg-black bg-opacity-70">
+        <motion.div
+          initial={initialRed} // Initial position: off-screen to the left, hidden, starting from a greater distance
+          whileInView={{ x: 0, opacity: 1 }} // Move to original position (x: 0) and become fully visible when in view
+          transition={{ 
+          delay: 0.2, 
+          x: { type: "spring", stiffness: 60 }, // Spring animation for x-axis movement
+          opacity: { duration: 1 }, // Smooth opacity transition
+          ease: "easeIn", // Easing function
+          duration: 1 // Overall animation duration
+        }}
+           className="absolute right-0 min-h-screen sm:w-3/5 w-full py-4 px-8 shadow md:w-1/3 bg-black z-50">
             <button className="absolute top-0 right-0 mt-4 mr-4" onClick={() => setMobileMenu(false)}>
               <AiOutlineClose className="text-4xl text-white hover:text-gray-300" />
             </button>
-            <ul className="mt-8 flex flex-col space-y-7">
+            <ul className="mt-12 flex flex-col space-y-7">
               {navItems.map((item) => (
                 <MobileNavItem key={item.id} onClick={() => triggerMobileNavItem(`#${item.id}`)}>
                   {item.label}
                 </MobileNavItem>
               ))}
             </ul>
-          </div>
+          </motion.div>
         </div>
       )}
     </>
