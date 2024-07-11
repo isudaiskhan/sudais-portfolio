@@ -66,7 +66,7 @@ const About = () => {
           >
             <h1 className='md:text-4xl text-3xl tracking-wide text-[#12141D] font-bold py-4'>About Me</h1>
             <p className='text-[#474747] text-justify leading-7'>
-              Hello! I'm Sudais Khan, a passionate Full-stack and MERN-stack developer. I specialize in creating seamless web applications using React.js, Node.js, Express.js, MongoDB, and Mysql. With expertise in both frontend and backend development, I transform complex problems into intuitive and efficient solutions. Continuously learning and exploring new technologies, I aim to deliver modern, robust, and user-friendly web experiences. I provide top-notch services for growing companies.
+              Hello! I'm Sudais Khan, a passionate Full-stack and MERN-Stack developer. I specialize in creating seamless web applications using React.js, Node.js, Express.js, MongoDB, and Mysql. With expertise in both frontend and backend development, I transform complex problems into intuitive and efficient solutions. Continuously learning and exploring new technologies, I aim to deliver modern, robust, and user-friendly web experiences. I provide top-notch services for growing companies.
               I am fast, professional and reliable. So get in touch now! Let's collaborate to bring your ideas to life. Contact me to discuss your next project.
             </p>
             <div className="flex items-center justify-start">

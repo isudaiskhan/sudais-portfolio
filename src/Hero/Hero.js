@@ -38,7 +38,7 @@ const Hero = () => {
     <>
     <div className="relative">
       <div
-        className="bg-no-repeat bg-fixed bg-cover h-full bg-center"
+        className="bg-no-repeat bg-cover h-full bg-center"
         style={{ backgroundImage: `url(${bgimage})` }}
       >
         <div
