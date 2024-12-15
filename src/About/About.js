@@ -50,7 +50,7 @@ const About = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.2, type: "spring", stiffness: 60, duration: 1 }}
             src={image}
-            className='w-96 me-auto my-4 lg:mr-8'
+            className='w-96 me-auto rounded my-4 lg:mr-8'
           />
           <motion.div
             initial={initialRed}
@@ -71,7 +71,7 @@ const About = () => {
             </p>
             <div className="flex items-center justify-start">
               <button
-                className="flex items-center sm:text-lg font-medium bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-emerald-500 hover:via-sky-500 hover:to-indigo-500 hover:bg-gradient-to-r hover:from-10% hover:via-30% hover:to-90% text-white shadow-2xl shadow-indigo-500 hover:shadow-none mt-10 py-4 px-4 rounded-xl"
+                className="flex items-center sm:text-lg font-medium bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-emerald-500 hover:via-sky-500 hover:to-indigo-500 hover:bg-gradient-to-r hover:from-10% hover:via-30% hover:to-90% text-white shadow-2xl shadow-indigo-500 hover:shadow-none mt-10 py-4 px-4 rounded-lg"
                 onClick={handleDownload}
               >
                 Download Resume

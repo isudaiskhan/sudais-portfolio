@@ -80,7 +80,7 @@ const Hero = () => {
               </div>
               <button
                 onClick={scrollToContact}
-                className="relative flex font-medium items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-emerald-500 hover:via-sky-500 hover:to-indigo-500 hover:bg-gradient-to-r hover:from-10% hover:via-30% hover:to-90% text-white mt-14 py-4 px-10 shadow-2xl shadow-indigo-500 hover:shadow-none rounded-xl"
+                className="relative flex font-medium items-center bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% hover:from-emerald-500 hover:via-sky-500 hover:to-indigo-500 hover:bg-gradient-to-r hover:from-10% hover:via-30% hover:to-90% text-white mt-14 py-4 px-8 shadow-2xl shadow-indigo-500 hover:shadow-none rounded-lg"
               >
                 <span className="mr-3 text-lg">Contact Me</span>
                 <IoMdCall className="text-xl" />
