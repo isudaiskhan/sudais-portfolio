@@ -10,16 +10,18 @@ import image6 from "../assets/portfolio-6.png";
 import image7 from "../assets/portfolio-7.png";
 import image8 from "../assets/portfolio-8.png";
 import image9 from "../assets/portfolio-9.png";
+import image10 from "../assets/portfolio-10.png";
 
-import image10 from "../assets/To-do-app.png";
-import image11 from "../assets/weather-app.png";
-import image12 from "../assets/game1.png";
-import image13 from "../assets/Breakout-Game4.png";
-import image14 from "../assets/bulb.png";
-import image15 from "../assets/game2.png";
-
-import image16 from "../assets/converter.png";
-import image17 from "../assets/extension.png";
+import image11 from "../assets/To-do-app.png";
+import image12 from "../assets/weather-app.png";
+import image13 from "../assets/game1.png";
+import image14 from "../assets/Breakout-Game4.png";
+import image15 from "../assets/bulb.png";
+import image16 from "../assets/game2.png";
+import image17 from "../assets/converter.png";
+import image18 from "../assets/extension.png";
+import image19 from "../assets/tic-tac-toe.png";
+import image20 from "../assets/calculator.png";
 
 const Portfolio = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -85,50 +87,71 @@ const Portfolio = () => {
     {
       thumbnailUrl: image10,
       largeImageUrl: image10,
-      websiteUrl: "https://best-to-do-app.netlify.app/",
-      category: "category2",
+      websiteUrl: "https://www.mgcapitalmain.com/",
+      category: "category1",
     },
+
     {
       thumbnailUrl: image11,
       largeImageUrl: image11,
-      websiteUrl: "https://wonderful-weather-app-project.netlify.app/",
+      websiteUrl: "https://best-to-do-app.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image12,
       largeImageUrl: image12,
-      websiteUrl: "https://customizable-tic-tac-toe-game.netlify.app/",
+      websiteUrl: "https://wonderful-weather-app-project.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image13,
       largeImageUrl: image13,
-      websiteUrl: "https://best-breakout-game.netlify.app/",
+      websiteUrl: "https://customizable-tic-tac-toe-game.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image14,
       largeImageUrl: image14,
-      websiteUrl: "https://bulb-project.netlify.app/",
+      websiteUrl: "https://best-breakout-game.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image15,
       largeImageUrl: image15,
+      websiteUrl: "https://bulb-project.netlify.app/",
+      category: "category2",
+    },
+    {
+      thumbnailUrl: image16,
+      largeImageUrl: image16,
       websiteUrl: "https://stunning-tic-tac-toe-game.netlify.app/",
       category: "category2",
     },
 
     {
-      thumbnailUrl: image16,
-      largeImageUrl: image16,
+      thumbnailUrl: image17,
+      largeImageUrl: image17,
       websiteUrl: "https://image-convertor-project.netlify.app/",
       category: "category2",
     },
     {
-      thumbnailUrl: image17,
-      largeImageUrl: image17,
+      thumbnailUrl: image18,
+      largeImageUrl: image18,
       websiteUrl: "https://form-fill-extension.netlify.app/",
+      category: "category2",
+    },
+
+    {
+      thumbnailUrl: image19,
+      largeImageUrl: image19,
+      websiteUrl: "https://latest-tic-tac-toe-game.netlify.app/",
+      category: "category2",
+    },
+
+    {
+      thumbnailUrl: image20,
+      largeImageUrl: image20,
+      websiteUrl: "https://calculatorr-ap.netlify.app/",
       category: "category2",
     },
   ];
@@ -234,7 +257,7 @@ const Portfolio = () => {
               Other Projects
             </button>
           </motion.div>
-          <div className="grid grid-cols-1 mt-8 sm:mt-16 md:grid-cols-2 lg:grid-cols-3 gap-9 overflow-hidden">
+          <div className="grid grid-cols-1 mt-8 sm:mt-16 md:grid-cols-2 lg:grid-cols-4 gap-9 overflow-hidden">
             {filteredItems.map((item, index) => (
               <div
                 key={index}
