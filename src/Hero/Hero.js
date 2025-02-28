@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import image from "../assets/myimage.jpg";
+import image from "../assets/myimages.jpg";
 import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 import { IoMdCall } from "react-icons/io";

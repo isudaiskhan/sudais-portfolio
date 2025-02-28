@@ -134,9 +134,12 @@ const Contact = () => {
             </a>
             <div className="ml-4">
               <h1 className="text-[#12141D] font-medium text-2xl">Email</h1>
-              <span className="text-gray-700 text-lg">
-                isudaiskhan54 @gmail.com
-              </span>
+              <a
+                href="mailto:isudaiskhan54@gmail.com"
+                className="text-gray-700 text-lg"
+              >
+                isudaiskhan54@gmail.com
+              </a>
             </div>
           </div>
 

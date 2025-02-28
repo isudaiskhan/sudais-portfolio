@@ -22,6 +22,8 @@ import image17 from "../assets/converter.png";
 import image18 from "../assets/extension.png";
 import image19 from "../assets/tic-tac-toe.png";
 import image20 from "../assets/calculator.png";
+import image21 from "../assets/image-crop.png";
+import image22 from "../assets/background-remover.png";
 
 const Portfolio = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -152,6 +154,20 @@ const Portfolio = () => {
       thumbnailUrl: image20,
       largeImageUrl: image20,
       websiteUrl: "https://calculatorr-ap.netlify.app/",
+      category: "category2",
+    },
+
+    {
+      thumbnailUrl: image21,
+      largeImageUrl: image21,
+      websiteUrl: "https://images-croper.netlify.app/",
+      category: "category2",
+    },
+
+    {
+      thumbnailUrl: image22,
+      largeImageUrl: image22,
+      websiteUrl: "https://background-removerr.netlify.app/",
       category: "category2",
     },
   ];

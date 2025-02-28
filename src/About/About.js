@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import image from "../assets/myimage.jpg";
+import image from "../assets/myimages.jpg";
 import resume from "../assets/Sudais+Web+Developer+Resume.pdf";
 import { motion } from "framer-motion";
 import { FaCloudDownloadAlt } from "react-icons/fa";
@@ -57,7 +57,7 @@ const About = () => {
               duration: 1,
             }}
             src={image}
-            className="w-96 me-auto rounded-xl my-4 lg:mr-8"
+            className="w-96 me-auto rounded-2xl my-4 lg:mr-8"
           />
           <motion.div
             initial={initialRed}
