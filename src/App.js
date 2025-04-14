@@ -9,23 +9,20 @@ import Skills from "./Skills/Skills";
 import Testimonial from "./Testimonial/Testimonial";
 import WhatsApp from "./WhatsApp/WhatsApp";
 
-
 function App() {
   return (
-   <>
-
-     <Navbar />
-     <Hero />
-     <About />
-     <Experience />
-     <Skills />
-     <Portfolio />
-     <Testimonial />
-     <Contact />
-     <Footer />
-     <WhatsApp />
-    
-   </>
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Skills />
+      <Portfolio />
+      <Testimonial />
+      <Contact />
+      <Footer />
+      <WhatsApp />
+    </>
   );
 }
 

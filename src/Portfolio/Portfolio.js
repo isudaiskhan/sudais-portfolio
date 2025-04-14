@@ -11,19 +11,21 @@ import image7 from "../assets/portfolio-7.png";
 import image8 from "../assets/portfolio-8.png";
 import image9 from "../assets/portfolio-9.png";
 import image10 from "../assets/portfolio-10.png";
+import image11 from "../assets/portfolio-11.png";
+import image12 from "../assets/portfolio-12.png";
 
-import image11 from "../assets/To-do-app.png";
-import image12 from "../assets/weather-app.png";
-import image13 from "../assets/game1.png";
-import image14 from "../assets/Breakout-Game4.png";
-import image15 from "../assets/bulb.png";
-import image16 from "../assets/game2.png";
-import image17 from "../assets/converter.png";
-import image18 from "../assets/extension.png";
-import image19 from "../assets/tic-tac-toe.png";
-import image20 from "../assets/calculator.png";
-import image21 from "../assets/image-crop.png";
-import image22 from "../assets/background-remover.png";
+import image13 from "../assets/To-do-app.png";
+import image14 from "../assets/weather-app.png";
+import image15 from "../assets/game1.png";
+import image16 from "../assets/Breakout-Game4.png";
+import image17 from "../assets/bulb.png";
+import image18 from "../assets/game2.png";
+import image19 from "../assets/converter.png";
+import image20 from "../assets/extension.png";
+import image21 from "../assets/tic-tac-toe.png";
+import image22 from "../assets/calculator.png";
+import image23 from "../assets/image-crop.png";
+import image24 from "../assets/background-remover.png";
 
 const Portfolio = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -34,139 +36,152 @@ const Portfolio = () => {
     {
       thumbnailUrl: image1,
       largeImageUrl: image1,
-      websiteUrl: "https://gardening-website.netlify.app/",
+      websiteUrl: "https://travisa.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image2,
       largeImageUrl: image2,
-      websiteUrl: "https://nike-shoes-website.netlify.app/",
+      websiteUrl: "https://gardening-website.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image3,
       largeImageUrl: image3,
-      websiteUrl: "https://haircut-website.netlify.app/",
+      websiteUrl: "https://nike-shoes-website.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image4,
       largeImageUrl: image4,
-      websiteUrl: "https://restoran-fast-foods-website.netlify.app/",
+      websiteUrl: "https://haircut-website.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image5,
       largeImageUrl: image5,
-      websiteUrl: "https://rent-zoom-website.netlify.app/",
+      websiteUrl: "https://restoran-fast-foods-website.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image6,
       largeImageUrl: image6,
-      websiteUrl: "https://fruits-vegetables.netlify.app/",
+      websiteUrl: "https://rent-zoom-website.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image7,
       largeImageUrl: image7,
-      websiteUrl: "https://videograph-website.netlify.app/",
+      websiteUrl: "https://fruits-vegetables.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image8,
       largeImageUrl: image8,
-      websiteUrl: "https://green-host-website.netlify.app/",
+      websiteUrl: "https://videograph-website.netlify.app/",
       category: "category1",
     },
     {
       thumbnailUrl: image9,
       largeImageUrl: image9,
-      websiteUrl: "https://seo-master-website.netlify.app/",
+      websiteUrl: "https://green-host-website.netlify.app/",
       category: "category1",
     },
-
     {
       thumbnailUrl: image10,
       largeImageUrl: image10,
-      websiteUrl: "https://www.mgcapitalmain.com/",
+      websiteUrl: "https://seo-master-website.netlify.app/",
       category: "category1",
     },
 
     {
       thumbnailUrl: image11,
       largeImageUrl: image11,
-      websiteUrl: "https://best-to-do-app.netlify.app/",
-      category: "category2",
+      websiteUrl: "https://www.mgcapitalmain.com/",
+      category: "category1",
     },
+
     {
       thumbnailUrl: image12,
       largeImageUrl: image12,
-      websiteUrl: "https://wonderful-weather-app-project.netlify.app/",
-      category: "category2",
+      websiteUrl: "https://appco-website.netlify.app/",
+      category: "category1",
     },
+
     {
       thumbnailUrl: image13,
       largeImageUrl: image13,
-      websiteUrl: "https://customizable-tic-tac-toe-game.netlify.app/",
+      websiteUrl: "https://best-to-do-app.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image14,
       largeImageUrl: image14,
-      websiteUrl: "https://best-breakout-game.netlify.app/",
+      websiteUrl: "https://wonderful-weather-app-project.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image15,
       largeImageUrl: image15,
-      websiteUrl: "https://bulb-project.netlify.app/",
+      websiteUrl: "https://customizable-tic-tac-toe-game.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image16,
       largeImageUrl: image16,
-      websiteUrl: "https://stunning-tic-tac-toe-game.netlify.app/",
+      websiteUrl: "https://best-breakout-game.netlify.app/",
       category: "category2",
     },
-
     {
       thumbnailUrl: image17,
       largeImageUrl: image17,
-      websiteUrl: "https://image-convertor-project.netlify.app/",
+      websiteUrl: "https://bulb-project.netlify.app/",
       category: "category2",
     },
     {
       thumbnailUrl: image18,
       largeImageUrl: image18,
-      websiteUrl: "https://form-fill-extension.netlify.app/",
+      websiteUrl: "https://stunning-tic-tac-toe-game.netlify.app/",
       category: "category2",
     },
 
     {
       thumbnailUrl: image19,
       largeImageUrl: image19,
-      websiteUrl: "https://latest-tic-tac-toe-game.netlify.app/",
+      websiteUrl: "https://image-convertor-project.netlify.app/",
       category: "category2",
     },
-
     {
       thumbnailUrl: image20,
       largeImageUrl: image20,
-      websiteUrl: "https://calculatorr-ap.netlify.app/",
+      websiteUrl: "https://form-fill-extension.netlify.app/",
       category: "category2",
     },
 
     {
       thumbnailUrl: image21,
       largeImageUrl: image21,
-      websiteUrl: "https://images-croper.netlify.app/",
+      websiteUrl: "https://latest-tic-tac-toe-game.netlify.app/",
       category: "category2",
     },
 
     {
       thumbnailUrl: image22,
       largeImageUrl: image22,
+      websiteUrl: "https://calculatorr-ap.netlify.app/",
+      category: "category2",
+    },
+
+    {
+      thumbnailUrl: image23,
+      largeImageUrl: image23,
+      websiteUrl: "https://images-croper.netlify.app/",
+      category: "category2",
+    },
+
+    {
+      thumbnailUrl: image24,
+      largeImageUrl: image24,
       websiteUrl: "https://background-removerr.netlify.app/",
       category: "category2",
     },
