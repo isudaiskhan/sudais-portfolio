@@ -11,7 +11,6 @@ import image7 from "../assets/portfolio-7.png";
 import image8 from "../assets/portfolio-8.png";
 import image9 from "../assets/portfolio-9.png";
 import image10 from "../assets/portfolio-10.png";
-import image11 from "../assets/portfolio-11.png";
 import image12 from "../assets/portfolio-12.png";
 
 import image13 from "../assets/To-do-app.png";
@@ -91,13 +90,6 @@ const Portfolio = () => {
       thumbnailUrl: image10,
       largeImageUrl: image10,
       websiteUrl: "https://seo-master-website.netlify.app/",
-      category: "category1",
-    },
-
-    {
-      thumbnailUrl: image11,
-      largeImageUrl: image11,
-      websiteUrl: "https://www.mgcapitalmain.com/",
       category: "category1",
     },
 
